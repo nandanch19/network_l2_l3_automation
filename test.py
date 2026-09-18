@@ -1,6 +1,3 @@
-print("hello")
-a=203
-b=55.0
-c=a+b
-print(c)
-
+s="python"
+result="P"+ s[1:]
+print(result)
