@@ -56,8 +56,43 @@ def string_formatting():
                         b=5.11
                         c="python"
                         print(f"integer value is {a},float is {b},string is {c}")
-string_formatting()
+                        #escape sequence 
+                        s=  'a \t b'#tab space in a string
+                        t='a\n b'# new line in a string
+                        r='a\' b'# colon in a string
+                        print(s)
+                        print(t)
+                        print(r)
+                        #raw string : ignores the escape sequence using r or R
+                        path=R'C:\Windows\Containers'
+                        path1="C:\Windows\Containers"
+                        print(path)
+                        #print(path1)# "\W" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\W"? A raw string is also an option.
+                        
+#string_formatting()
+def string_methods():
+                        #1.lower 2.upper 3.split 4. join 5.count 6.find 7.strip 8.replace
+    #1 lower converts all upper case letters to lower
+    s="PYTHON1"
+    print(s.lower())
+    t="networK"
+    print(t.upper())
+    print(t.swapcase())
+    print(t.isdigit())#checks if the t is digit false
+    print(t.isspace())#checks if the t is space false
+    print(t.isalnum())# checks if the string has alphabets and numericals
+    print(t.isupper())
+    print(t.islower())
+    
+
+    
+
+    
+    
 
 
 
 
+
+
+string_methods()
