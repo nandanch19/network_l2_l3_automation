@@ -83,18 +83,19 @@ def string_methods():
     print(t.isalnum())# checks if the string has alphabets and numericals
     print(t.isupper())# checks if the string is upper or not returns true or false
     print(t.islower())# check if the string is lower or not
-
-    
-    
-
     
 
     
     
 
+    
+
+    
+    
 
 
 
 
 
-string_methods()
+
+#string_methods()
